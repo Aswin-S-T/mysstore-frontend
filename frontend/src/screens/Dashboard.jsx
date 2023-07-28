@@ -15,11 +15,15 @@ import ProductList from "./ProductList";
 import Statistics from "./Statistics";
 import Settings from "./Settings";
 import ProfileScreen from "./ProfileScreen";
+import Header from "../components/Header";
 function Dashboard() {
   const navigate = useNavigate();
 
   return (
     <div>
+      <header>
+        <Header />
+      </header>
       <Tabs className="vertical-tabs">
         <TabList className="vertical-tab-list">
           <div className="container">
