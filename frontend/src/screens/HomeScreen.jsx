@@ -9,6 +9,7 @@ function HomeScreen() {
 
   return (
     <div className="container-fluid">
+      <h4>Dashboard</h4>
       <div className="row">
         <div className="col-md-4">
           <div className="card">
@@ -43,8 +44,8 @@ function HomeScreen() {
           <div className="col-md-7 card">
             <ChartComponent />
           </div>
-          <div className="col-md-4 card" style={{marginLeft:"5px"}}>
-            <h4 style={{marginLeft:"10px",marginTop:"10px"}}>FeedBacks</h4>
+          <div className="col-md-4 card" style={{ marginLeft: "5px" }}>
+            <h4 style={{ marginLeft: "10px", marginTop: "10px" }}>FeedBacks</h4>
             <AlignItemsList />
           </div>
         </div>

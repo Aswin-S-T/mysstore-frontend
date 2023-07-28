@@ -10,6 +10,7 @@ import HomeScreen from "./HomeScreen";
 import EqualizerIcon from "@mui/icons-material/Equalizer";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 import Inventory2Icon from "@mui/icons-material/Inventory2";
+import CustomersList from "./CustomersList";
 function Dashboard() {
   const navigate = useNavigate();
 
@@ -47,8 +48,9 @@ function Dashboard() {
         <TabPanel>
           <HomeScreen />
         </TabPanel>
-
-        <TabPanel>dsds</TabPanel>
+        <TabPanel>
+          <CustomersList />
+        </TabPanel>
       </Tabs>
     </div>
   );

@@ -8,8 +8,11 @@ function Header() {
         <nav class="navbar navbar-expand-lg navbar-light">
           <a class="navbar-brand m-2" href="/">
             {/* <img className="logo" src={COMPANY_LOGO} /> */}
-            <img src={process.env.PUBLIC_URL + "/logo.png"} alt="Logo" />
-            {/* <h3>Customer Support</h3> */}
+            {/* <img src={process.env.PUBLIC_URL + "/logo.png"} alt="Logo" /> */}
+            <div style={{display:"flex"}}>
+              <i className="fa fa-shopping-cart"></i>
+              <h3 className="mt-3">MyStore</h3>
+            </div>
           </a>
           <button
             class="navbar-toggler"
