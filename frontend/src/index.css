@@ -152,7 +152,9 @@ button{
   flex-direction: row;
   justify-content: center;
 }
-.fa{
+.fa-users,
+.fa-comments,
+.fa-tasks{
   font-size: 40px;
   background-color: yellow;
  color: white;
@@ -161,4 +163,26 @@ button{
  /* height: 400px;
  width: 400px;
  border-radius: 50%; */
+}
+.css-1aquho2-MuiTabs-indicator{
+  background-color: yellow;
+}
+.fa-star{
+  color: yellow;
+}
+/* .fa-star-o{
+  background-color: none;
+  color: transparent;
+}
+ */
+.products .card{
+  height: 300px;
+}
+.products img{
+  height: 200px;
+  max-height: 200px;
+}
+.fa-shopping-cart{
+  color: yellow;
+  font-size: 32px;
 }

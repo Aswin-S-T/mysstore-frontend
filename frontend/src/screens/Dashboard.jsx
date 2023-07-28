@@ -11,6 +11,10 @@ import EqualizerIcon from "@mui/icons-material/Equalizer";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 import Inventory2Icon from "@mui/icons-material/Inventory2";
 import CustomersList from "./CustomersList";
+import ProductList from "./ProductList";
+import Statistics from "./Statistics";
+import Settings from "./Settings";
+import ProfileScreen from "./ProfileScreen";
 function Dashboard() {
   const navigate = useNavigate();
 
@@ -50,6 +54,18 @@ function Dashboard() {
         </TabPanel>
         <TabPanel>
           <CustomersList />
+        </TabPanel>
+        <TabPanel>
+          <ProductList />
+        </TabPanel>
+        <TabPanel>
+          <Statistics />
+        </TabPanel>
+        <TabPanel>
+          <Settings />
+        </TabPanel>
+        <TabPanel>
+          <ProfileScreen />
         </TabPanel>
       </Tabs>
     </div>

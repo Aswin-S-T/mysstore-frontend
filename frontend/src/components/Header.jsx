@@ -11,7 +11,7 @@ function Header() {
             {/* <img src={process.env.PUBLIC_URL + "/logo.png"} alt="Logo" /> */}
             <div style={{display:"flex"}}>
               <i className="fa fa-shopping-cart"></i>
-              <h3 className="mt-3">MyStore</h3>
+              <h3 className="mt-1">MyStore</h3>
             </div>
           </a>
           <button
